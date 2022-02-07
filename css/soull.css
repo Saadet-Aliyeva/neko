@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(247, 168, 223);
+}
+img{ 
+    max-width: 100%;
+    height: auto;
+}
+  
+button {
+    background-color: #6A05A4;
+    color: #fff;
+    padding: 7px 12px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #6A05A4;
+    cursor: pointer;    
+}
+
+.but {
+    padding-left: 1200px;
+}
+ 
