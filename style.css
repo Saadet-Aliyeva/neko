@@ -4,7 +4,7 @@
 
 body {
    margin: 0;
-    background-color: #000; 
+   background: -webkit-linear-gradient(left,#131212,#5e1561);  
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 header.header {
  display: flex;
  height: 50px; 
-background-color: #6A05A4 ; 
+ background: -webkit-linear-gradient(left,#793269,#501352);  
 justify-content: space-between;
 align-items: center ;
 
@@ -35,7 +35,9 @@ a{
     text-decoration: none;
     
 }
-
+ img{
+     padding-top: 20px;
+ }
 
 nav.navigation {
   display: flex;
@@ -85,7 +87,7 @@ nav.navigation {
 
 
 .main {
-    background-color: #000;
+    background: -webkit-linear-gradient(left,#8b3269,#501352); 
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -94,18 +96,18 @@ nav.navigation {
 .card:hover{
     box-shadow: 0 1px 2px rgba(128,0,128),
     0 2px 4px rgba(0,0,0),   
-     0 4px 16px  rgba(0,0,0),
-     0 16px 32px rgba(37, 32, 40),
-     0 32px 64px rgba(0, 0, 0);
+     0 4px 16px  rgb(16, 4, 27),
+     0 16px 32px rgb(53, 13, 77),
+     0 32px 64px rgb(31, 31, 31);
      transition: .5s ease-in-out;
-
 }
 
 
 .cards {
  display: flex;
  justify-content: space-around;
- background-color: #000;
+ background: -webkit-linear-gradient(left,#131212,#5e1561);  
+ 
  flex-basis: 40%;
  padding: 50px 0 50px;
 
@@ -119,8 +121,18 @@ nav.navigation {
     justify-content: center;
     height: 15;
     align-items: center;
-    background-color:#6A05A4;
+    background-color:#9377a3;
     cursor: pointer;   
+}
+.card:hover{
+    box-shadow: 0 1px 2px rgba(128,0,128),
+    0 2px 4px rgba(0,0,0),   
+     0 4px 16px  rgb(16, 4, 27),
+     0 16px 32px rgb(53, 13, 77),
+     0 32px 64px rgb(31, 31, 31);
+     transition: .5s ease-in-out;
+
+
 }
 
 
@@ -129,14 +141,15 @@ nav.navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000;
+    background: -webkit-linear-gradient(left,#131212,#5e1561);  
+
     padding: 50px 0 50px;
 }
 
 
 .box {
     flex: 0 15%;
-    background-color:#6A05A4 ;
+    background-color:#9377a3 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,9 +160,9 @@ nav.navigation {
  .box:hover{
     box-shadow: 0 1px 2px rgba(128,0,128),
     0 2px 4px rgba(0,0,0),   
-     0 4px 16px  rgba(0,0,0),
-     0 16px 32px rgba(37, 32, 40),
-     0 32px 64px rgba(0, 0, 0);
+     0 4px 16px  rgb(16, 4, 27),
+     0 16px 32px rgb(53, 13, 77),
+     0 32px 64px rgb(31, 31, 31);
      transition: .5s ease-in-out;
 
  } 
@@ -161,7 +174,7 @@ order:1;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000;   
+    background: -webkit-linear-gradient(left,#131212,#5e1561);  
     padding: 50px 0 300px;  
 }
 
@@ -171,7 +184,7 @@ order:1;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background-color: #6A05A4;
+    background-color: #9377a3;
     cursor: pointer;  
    
       
@@ -180,17 +193,17 @@ order:1;
     box-shadow: 0 1px 2px rgba(128,0,128),
     0 2px 4px rgba(0,0,0),   
      0 4px 16px  rgba(0,0,0),
-     0 16px 32px rgba(37, 32, 40),
-     0 32px 64px rgba(0, 0, 0);
+     0 16px 32px rgb(53, 27, 68),
+     0 32px 64px rgb(30, 6, 37);
      transition: .5s ease-in-out;
 
 }
 button {
-    background-color: #6A05A4;
+    background: -webkit-linear-gradient(left,#8b3269,#501352);
     color: #fff;
     padding: 7px 12px;
     border-radius: 4px;
-    border: 1px solid #6A05A4;
+    border: 1px solid #501352;
     cursor: pointer;  
 } 
 button a{
